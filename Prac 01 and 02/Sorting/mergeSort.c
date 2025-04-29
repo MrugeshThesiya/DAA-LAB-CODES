@@ -22,7 +22,7 @@ void merge(int* a,int l,int m,int r){
   L[n1] = INT_MAX;
   
   for(int j = 0 ; j < n2 ; j++){
-    R[j] = a[m+j+1];
+    R[j] = a[m+1+j];
   }
   
   R[n2] = INT_MAX;

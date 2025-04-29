@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include <limits.h>
 
 void printArray(int* a,int size){
  for (int i = 0 ; i < size ; i++){
@@ -39,10 +40,10 @@ printf("Searching %d... \n",searchElement);
 }
 
 int main(){
- int a[100];
+ int a[1000];
  int size;
  int searchElement;
- printf("Enter the size of the array (should be less than 100) : ");
+ printf("Enter the size of the array: ");
  scanf("%d", &size);
  printf("Enter the elements of the array of size %d. \n",size);
 
